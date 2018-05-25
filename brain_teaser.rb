@@ -33,4 +33,4 @@ def brain_teaser()
 end
 
 
-brain_teaser('dog')
+brain_teaser()
