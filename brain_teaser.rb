@@ -1,4 +1,9 @@
-def brain_teaser(word)
+def brain_teaser()
+  print "Please input a word, or type Q to quit"
+  word = gets.strip
+  if word == 'Q'
+    exit
+  end
   a = 0
   b = 0
   x = word.split("")
